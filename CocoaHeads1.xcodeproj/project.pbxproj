@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		D3108220249210900086745F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D310821F249210900086745F /* AppDelegate.swift */; };
-		D3108222249210900086745F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3108221249210900086745F /* SceneDelegate.swift */; };
 		D3108224249210900086745F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3108223249210900086745F /* ViewController.swift */; };
-		D3108227249210900086745F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3108225249210900086745F /* Main.storyboard */; };
 		D3108229249210930086745F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3108228249210930086745F /* Assets.xcassets */; };
 		D310822C249210930086745F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D310822A249210930086745F /* LaunchScreen.storyboard */; };
 		D3108237249210940086745F /* CocoaHeads1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3108236249210940086745F /* CocoaHeads1Tests.swift */; };
 		D3108242249210940086745F /* CocoaHeads1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3108241249210940086745F /* CocoaHeads1UITests.swift */; };
+		D3108250249211940086745F /* CHWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D310824F249211940086745F /* CHWindow.swift */; };
+		D3108252249211B80086745F /* CHView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3108251249211B80086745F /* CHView.swift */; };
+		D3108256249215CE0086745F /* Speakers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3108255249215CE0086745F /* Speakers.swift */; };
+		D310825824921F420086745F /* CHLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D310825724921F420086745F /* CHLabel.swift */; };
+		D310825C2492302A0086745F /* CHImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D310825B2492302A0086745F /* CHImageView.swift */; };
+		D3108264249291A90086745F /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3108263249291A90086745F /* ContainerView.swift */; };
+		D31082662492A7DE0086745F /* CHButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31082652492A7DE0086745F /* CHButton.swift */; };
+		D310826A2493921D0086745F /* CHControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31082692493921D0086745F /* CHControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +43,7 @@
 /* Begin PBXFileReference section */
 		D310821C249210900086745F /* CocoaHeads1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaHeads1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D310821F249210900086745F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D3108221249210900086745F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D3108223249210900086745F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D3108226249210900086745F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3108228249210930086745F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D310822B249210930086745F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D310822D249210930086745F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		D310823D249210940086745F /* CocoaHeads1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaHeads1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3108241249210940086745F /* CocoaHeads1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaHeads1UITests.swift; sourceTree = "<group>"; };
 		D3108243249210940086745F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D310824F249211940086745F /* CHWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHWindow.swift; sourceTree = "<group>"; };
+		D3108251249211B80086745F /* CHView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHView.swift; sourceTree = "<group>"; };
+		D3108255249215CE0086745F /* Speakers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speakers.swift; sourceTree = "<group>"; };
+		D310825724921F420086745F /* CHLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHLabel.swift; sourceTree = "<group>"; };
+		D310825B2492302A0086745F /* CHImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHImageView.swift; sourceTree = "<group>"; };
+		D3108263249291A90086745F /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		D31082652492A7DE0086745F /* CHButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHButton.swift; sourceTree = "<group>"; };
+		D31082692493921D0086745F /* CHControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +112,15 @@
 			isa = PBXGroup;
 			children = (
 				D310821F249210900086745F /* AppDelegate.swift */,
-				D3108221249210900086745F /* SceneDelegate.swift */,
-				D3108223249210900086745F /* ViewController.swift */,
-				D3108225249210900086745F /* Main.storyboard */,
-				D3108228249210930086745F /* Assets.xcassets */,
-				D310822A249210930086745F /* LaunchScreen.storyboard */,
-				D310822D249210930086745F /* Info.plist */,
+				D3108263249291A90086745F /* ContainerView.swift */,
+				D310824F249211940086745F /* CHWindow.swift */,
+				D3108251249211B80086745F /* CHView.swift */,
+				D310825724921F420086745F /* CHLabel.swift */,
+				D31082652492A7DE0086745F /* CHButton.swift */,
+				D310825B2492302A0086745F /* CHImageView.swift */,
+				D31082692493921D0086745F /* CHControl.swift */,
+				D3108255249215CE0086745F /* Speakers.swift */,
+				D310826724931FCE0086745F /* Common */,
 			);
 			path = CocoaHeads1;
 			sourceTree = "<group>";
@@ -126,6 +141,17 @@
 				D3108243249210940086745F /* Info.plist */,
 			);
 			path = CocoaHeads1UITests;
+			sourceTree = "<group>";
+		};
+		D310826724931FCE0086745F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D3108223249210900086745F /* ViewController.swift */,
+				D3108228249210930086745F /* Assets.xcassets */,
+				D310822A249210930086745F /* LaunchScreen.storyboard */,
+				D310822D249210930086745F /* Info.plist */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +260,6 @@
 			files = (
 				D310822C249210930086745F /* LaunchScreen.storyboard in Resources */,
 				D3108229249210930086745F /* Assets.xcassets in Resources */,
-				D3108227249210900086745F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +284,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D310826A2493921D0086745F /* CHControl.swift in Sources */,
+				D3108250249211940086745F /* CHWindow.swift in Sources */,
+				D3108252249211B80086745F /* CHView.swift in Sources */,
+				D3108264249291A90086745F /* ContainerView.swift in Sources */,
 				D3108224249210900086745F /* ViewController.swift in Sources */,
+				D310825824921F420086745F /* CHLabel.swift in Sources */,
+				D310825C2492302A0086745F /* CHImageView.swift in Sources */,
+				D31082662492A7DE0086745F /* CHButton.swift in Sources */,
 				D3108220249210900086745F /* AppDelegate.swift in Sources */,
-				D3108222249210900086745F /* SceneDelegate.swift in Sources */,
+				D3108256249215CE0086745F /* Speakers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +329,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D3108225249210900086745F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3108226249210900086745F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D310822A249210930086745F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -436,7 +460,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J5U9896WL5;
-				INFOPLIST_FILE = CocoaHeads1/Info.plist;
+				INFOPLIST_FILE = CocoaHeads1/Common/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +478,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J5U9896WL5;
-				INFOPLIST_FILE = CocoaHeads1/Info.plist;
+				INFOPLIST_FILE = CocoaHeads1/Common/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
